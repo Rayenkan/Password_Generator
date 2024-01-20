@@ -31,7 +31,9 @@ To run this project locally, follow these steps:
 
 3. Run the password generator:
 
-    ```npm start
+    ```
+    npm start
+    
     ```
 
 4. Follow the on-screen instructions to generate passwords based on your criteria.
@@ -43,7 +45,6 @@ To run this project locally, follow these steps:
 - html
 
 
-- Your Name
   - [GitHub](https://github.com/Rayenkan)
   - [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile/)
 
