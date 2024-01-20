@@ -9,13 +9,11 @@ const GenPass =() => {
     const [length , setlength]=useState(10);
 
     const generatePassword = () => {
-        // Define character sets
         const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz';
         const uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
         const numberChars = '0123456789';
         const specialChars = '!@#$%^&*()_+[]{}|;:,.<>?';
     
-        // Combine character sets based on user preference
         let validChars = lowercaseChars;
         if (upperCase) validChars += uppercaseChars;
         if (Numbers) validChars += numberChars;
@@ -23,7 +21,6 @@ const GenPass =() => {
     
         var p = '';
     
-        // Generate password
         for (let i = 0; i < length; i++) {
           const randomIndex = Math.floor(Math.random() * validChars.length);
           p += validChars.charAt(randomIndex);

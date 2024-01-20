@@ -1,5 +1,5 @@
-import './App.css';
-import GenPass from './password_gen'; // Correct name for the imported component
+
+import GenPass from './password_gen';
 
 function App() {
   return (
