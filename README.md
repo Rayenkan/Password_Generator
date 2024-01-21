@@ -1,6 +1,6 @@
 # Password Generator
 
-This project is a password generator application built using Python. The application allows users to generate strong and secure passwords based on specified criteria. Additionally, the project is version-controlled using Git, and the source code is hosted on GitHub.
+This project is a password generator application built using Reactjs. The application allows users to generate strong and secure passwords based on specified criteria. Additionally, the project is version-controlled using Git, and the source code is hosted on GitHub.
 
 ## Demo
 
